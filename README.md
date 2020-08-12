@@ -131,7 +131,7 @@ Create a user in the database
 #### =>sudo mysql
 
 #### mysql>CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
-#### mysql>GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
+#### mysql>GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 #### mysql>FLUSH PRIVILEGES;
 
 
